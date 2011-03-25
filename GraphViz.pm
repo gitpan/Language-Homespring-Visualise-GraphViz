@@ -1,6 +1,6 @@
 package Language::Homespring::Visualise::GraphViz;
 
-$VERSION = 0.03;
+$VERSION = 0.04;
 
 use warnings;
 use strict;
@@ -93,7 +93,7 @@ your code produces :)
 
 =over 4
 
-=item C<new({'interp' => $hs})>
+=item C<< new({'interp' => $hs}) >>
 
 Creates a new C<Language::Homespring::Visualise::GraphViz> object. The single
 hash argument contains initialisation info. The only key currently
